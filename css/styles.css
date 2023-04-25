@@ -1,0 +1,422 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	color: #f0f0e6;
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#header-nav{
+	background-color: #36454f;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img {
+	background: url('adithya.jpg') no-repeat;
+	width: 150px;
+	height: 196px;
+	margin: 10px 15px 10px 0;
+	border-radius: 50%;
+  } 
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#header-nav a:hover{
+	text-decoration: none;
+	background: #000;
+}
+.navbar-brand p{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {
+vertical-align: middle;
+margin-left: 50px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+color: #fff;
+}
+#nav-list a:hover{
+	background: #000;
+}
+#nav-list a i{
+	font-size: 1.2em;
+}
+navbar-header button.navbar-toggler{
+	clear:both;
+	margin-top: -30px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.div1{
+		width: 50%;
+		float: left;
+	}
+	.div2{
+		width: 50%;
+		float: right;
+		padding-left: 10px;
+	}
+	.div3{
+		width: 50%;
+		float: left;
+	}
+	.div4{
+		width: 50%;
+		float: right;
+	}
+	#mepro{
+		margin-left: 350px;
+	}
+	.cera span{
+		margin-left: 350px;
+	}
+	#sub2 li{
+		margin-left: 370px;
+	}
+	.socialicons a{
+		margin-left: 60px;
+	}
+	.move ul li a{
+		font-size: 1.3em;
+		margin-left: 40px;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('adithya.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px 5px 0;
+  }
+.div1{
+	width: 50%;
+	float: left;
+}
+.div2{
+	width: 50%;
+	float: right;
+	padding-left: 10px;
+}
+.div3{
+	width: 50%;
+	float: left;
+}
+.div4{
+	width: 50%;
+	float: right;
+}
+#mepro{
+	margin-left: 260px;
+}
+.cera span{
+	margin-left: 260px;
+}
+#sub2 li{
+	margin-left: 280px;
+}
+.socialicons a{
+	margin-left: 60px;
+}
+.move ul li a{
+	margin-left: 40px;
+}
+.move ul li a{
+	font-size: 1.3em;
+	margin-left: 30px;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+         #logo-img{
+			background: url('adithya.jpg') no-repeat;
+			width: 150px;
+			height: 140px;
+		 }
+		 .navbar-brand h1 { 
+			padding-top: 10px;
+			font-size: 1em;
+			margin-left: -10px;
+}
+.navbar-brand p{
+	margin-left: -20px;
+}
+#nav-list  li a {
+	font-size: 0.7em;
+}
+.div1{
+	width: 50%;
+	float: left;
+}
+.div2{
+	width: 50%;
+	float: right;
+	padding-left: 10px;
+}
+#mepro{
+	margin-left: 50px;
+}
+.cera span{
+	margin-left: 50px;
+}
+#sub2 li{
+	margin-left: 80px;
+}
+.move ul li a{
+	margin-left: 40px;
+}
+.socialicons a{
+	margin-left: 30px;
+}
+.middle h1{
+		font-size: 3em;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 1em; /* 1vw = 1% of viewport width */
+	margin-left: -10px;
+  }
+  .navbar-brand p { 
+    font-size: 0.7em;
+    margin-top: 12px;
+	margin-left: -50px;
+  }
+  #nav-list  li a {
+	font-size: 0.7em;
+}
+.middle h1{
+	font-size: 2.5em;
+}
+.socialicons a{
+	margin-left: 10px;
+}
+.move ul li a{
+	margin: 5px;
+}
+.move ul li a{
+	font-size: 1em;
+}
+.cera span{
+	margin-left: 40px;
+}
+#sub2 li{
+	margin-left: 60px;
+}
+#mepro{
+	margin-left: 40px;
+}
+}
+#mynav a i{
+margin-right: 5px;
+}
+#main li{
+	margin-left: 40px;
+}
+#main li strong{
+	color: #25b79f;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.me #main{
+	background-color: #07374a;
+	display: block;
+}
+.me h1{
+	color: #25b79f;
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+}
+.me p{
+	font-size: 1.2rem;
+	color: #f0f0e6;
+	padding: 0 2.3em;
+	text-align: center;
+}
+#main li span{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+h1{
+	color: #07374a;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 4em;
+}
+h2{
+	color: #25b79f;
+	font-weight: bold;
+	display: block;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+#sub li{
+	font-weight: 500;
+	margin-left: 40px;
+}
+h5{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: darkcyan;
+}
+a:link {
+	text-decoration: none;
+}
+.div3 a:hover{
+	background: aquamarine;
+}
+.div4 a:hover{
+	background: aquamarine;
+	opacity: 0.9;
+}
+.middle #full{
+	background-color: #25b79f;
+}
+.cer span{
+color: #000;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+font-size: 20px;
+margin-top: 15px;
+margin-left: 40px;
+}
+.cera span{
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+	}
+#sub1 li{
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	margin-left: 80px;
+}
+#sub2 li{
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+#coursera{
+	background: url("coursera-logo.png") no-repeat;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+#mepro{
+	background: url("pearson-mepro.png") no-repeat;
+	width: 252px;
+	height: 252px;
+}
+.header{
+	background-color: #25b79f;
+	height: 100vh;
+}
+.home-content .name{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+.home-content .name h1{
+	margin-top: 100px;
+	font-size: 2.2em;
+	text-align: center;
+}
+.home-content .name p{
+	color: #f0f0e6;
+	font-size: 1.5em;
+}
+.bottom #last{
+	background-color: #07374a;
+}
+.bottom h1{
+	color: #25b79f;
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+}
+.socialicons{
+	display: flex;
+	justify-content: center;
+}
+.socialicons a{
+	margin-top: 50px;
+	text-decoration: none;
+	border-radius: 100%;
+	background: transparent;
+	font-size: 1.5em;
+	color: #000;
+	background-color: #f0f0e6;
+	transition: 0.5s;
+	padding: 10px;
+}
+.socialicons a i{
+	opacity: 0.9;
+	border-radius: 100%;
+}
+.socialicons a:hover{
+	background: #03a9f4;
+	color: #fff;
+}
+.move ul{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.move ul li a{
+	color: #f0f0e6;
+	text-decoration: none;
+	opacity: 0.7em;
+	transition: 0.5s;
+}
+.move ul li a:hover{
+	opacity: 0.7;
+	background-color: #03a9f4;
+}
+.end{
+	text-align: center;
+    margin-top: 30px;
+}
